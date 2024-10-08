@@ -1,0 +1,25 @@
+enum class ControllerAxis
+{
+	LEFT_JOYSTICK_X,
+	LEFT_JOYSTICK_Y,
+	TRIGGERS_L2_R2,
+	V, 						// WHAT IS THE V AXIS ? NOT SURE...
+	RIGHT_JOYSTICK_X,
+	RIGHT_JOYSTICK_Y,
+	DIR_CROSS_X,
+	DIR_CROSS_Y,
+};
+
+enum class ControllerButton
+{
+	A_CROSS,
+	B_CIRCLE,
+	X_SQUARE,
+	Y_TRIANGLE,
+	LB_L1,
+	RB_R1,
+	SELECT,
+	START,
+	LEFT_STICK_PUSH,
+	RIGHT_STICK_PUSH
+};

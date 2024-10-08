@@ -1,0 +1,4 @@
+Level Wave Mob NumberOfMob Gold Xp Life
+
+Only for Scarecrow
+Level Wave Scarecrow PosX PosY NULL NULL

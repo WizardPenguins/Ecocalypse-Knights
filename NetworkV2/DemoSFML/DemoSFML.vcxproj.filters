@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameStates">
+      <UniqueIdentifier>{d5dbb072-1195-4f22-ae85-22c7a2ab9fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{58ec3e25-b0fe-47e2-8911-4c6f768e1800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InGameRelated">
+      <UniqueIdentifier>{cbe7938f-9547-4871-865f-7e842211579f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{64ebc04b-c82f-4b25-a628-f521af261c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InGameRelated">
+      <UniqueIdentifier>{ca8db9c2-3536-439c-b5a3-307df7085114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{583757d9-5f50-4a59-99a1-dfd9c8de4d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InGameRelated\Entity">
+      <UniqueIdentifier>{ac344fbc-cedf-4510-a952-180d29502b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InGameRelated\Entity\PlayerStates">
+      <UniqueIdentifier>{290bfcd8-47cd-4410-a258-578ccc8b6fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InGameRelated\Entity\Mobs">
+      <UniqueIdentifier>{63fdd943-3cbf-4732-b990-d01df2dfb4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InGameRelated\Entity">
+      <UniqueIdentifier>{feaacf3d-b32f-4b6a-b401-4035952dfe35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InGameRelated\Entity\PlayerStates">
+      <UniqueIdentifier>{7a683bd3-cd3b-4803-9cf8-57e02c11ce6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InGameRelated\Entity\Mobs">
+      <UniqueIdentifier>{5162609a-0672-43ea-8f09-913458ebfb44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{10f684b7-36ca-4c21-80e7-c65d219a7d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{1cd4c50e-7a07-4a85-a9af-5e481538ae5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{f7eac39d-7fdc-492f-a7f7-831323478396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{09127e71-525e-4f03-b941-1ac5f849c320}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="States.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Easings.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="PreMenu.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRunState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerJumpState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLightAttackState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerKnockDownState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHeavyAttackState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBowAttackState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHitState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDeadState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIdleState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHitGroundState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMagicAttackState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelection.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerParryState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScreen.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUp.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\InGameRelated\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>Source Files\InGameRelated\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Boar.cpp">
+      <Filter>Source Files\InGameRelated\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Paralax.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiplayer.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPrayState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerReviveState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="HazelNut.cpp">
+      <Filter>Source Files\InGameRelated\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Source Files\InGameRelated\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="MobSprite.cpp">
+      <Filter>Source Files\InGameRelated\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayersSprites.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrade.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>Source Files\InGameRelated\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManagerPVP.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TroaDimmenssionSahMaire.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Scarecrow.cpp">
+      <Filter>Source Files\InGameRelated\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Arena.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Witch.cpp">
+      <Filter>Source Files\InGameRelated\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEatByBossState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFreeFallState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingNut.cpp">
+      <Filter>Source Files\InGameRelated\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDashState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTauntState.cpp">
+      <Filter>Source Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Pig.cpp">
+      <Filter>Source Files\InGameRelated\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="States.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Easings.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRunState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerJumpState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLightAttackState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerKnockDownState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHeavyAttackState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBowAttackState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDeadState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIdleState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHitState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHitGroundState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMagicAttackState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelection.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerParryState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScreen.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUp.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Boar.hpp">
+      <Filter>Header Files\InGameRelated\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.hpp">
+      <Filter>Header Files\InGameRelated\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\InGameRelated\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PreMenu.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiplayer.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Paralax.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerReviveState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPrayState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="HazelNut.hpp">
+      <Filter>Header Files\InGameRelated\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.hpp">
+      <Filter>Header Files\InGameRelated\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="MobSprite.hpp">
+      <Filter>Header Files\InGameRelated\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayersSprites.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.hpp">
+      <Filter>Header Files\InGameRelated\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="TroaDimmenssionSahMaire.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManagerPVP.hpp">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scarecrow.hpp">
+      <Filter>Header Files\InGameRelated\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Arena.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Witch.hpp">
+      <Filter>Header Files\InGameRelated\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFreeFallState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEatByBossState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingNut.h">
+      <Filter>Header Files\InGameRelated\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDashState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTauntState.h">
+      <Filter>Header Files\InGameRelated\Entity\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Pig.hpp">
+      <Filter>Header Files\InGameRelated\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
